@@ -1,5 +1,6 @@
 # sockberus
 ![](https://pm1.narvii.com/7192/7d4fc2db75408b3a5f694c9057491e0c79f7845er1-720-412v2_hq.jpg)
+
 Sockberus es una herramienta echa a base de "bash" y es ejecutable en windows como en linux
 ¿algunos usos?
 • puede usarse para checker de cuentas autopagables como de ccs.
@@ -11,12 +12,12 @@ Sockberus es una herramienta echa a base de "bash" y es ejecutable en windows co
 - https://aminoapps.com/c/cyber-hacking/page/blog/sockberus-gen-check-de-proxys/pW4x_DQUQuekwJe4E2LGQ2lN3kPeapxNb
 
 ## Comandos
-git clone https://github.com/Pericena/sockberus.git
-cd sockberus
-bash sockberus.sh
+'''
+- git clone https://github.com/Pericena/sockberus.git
+- cd sockberus
+- bash sockberus.sh
 - ingresar el nombre del archivo proxy.txt
-
-
+'''
 
 https://join-adf.ly/21179079
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
