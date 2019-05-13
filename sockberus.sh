@@ -31,7 +31,7 @@ read -t 60 -p "Nombre del archivo a procesar :" PROXYS
 
 #PROXYS='proxy.txt'
 PROXY_TYPE='http'
-CHECK_URL='proxy.json'
+CHECK_URL='https://api.ipify.org?format=json'
 CHECK_URL1='script.json'
 #https://api.ipify.org?format=json
 MAX_CONNECT=10
