@@ -3,10 +3,10 @@
 
 Sockberus es una herramienta echa a base de "bash" y es ejecutable en windows como en linux
 ¿algunos usos?
-• puede usarse para checker de cuentas autopagables como de ccs.
-• provee anonimato gracias a las buenas proxys y evitar la fastidiosa tarea de búsqueda y probar.
-• puede usarse para ciertas herramientas sobre hacking.
-• fácil acceso a socks, https, sock4 y frescas y evitar el uso de algún vpn.
+- puede usarse para checker de cuentas autopagables como de ccs.
+- provee anonimato gracias a las buenas proxys y evitar la fastidiosa tarea de búsqueda y probar.
+- puede usarse para ciertas herramientas sobre hacking.
+- fácil acceso a socks, https, sock4 y frescas y evitar el uso de algún vpn.
 
 ## amino
 - https://aminoapps.com/c/cyber-hacking/page/blog/sockberus-gen-check-de-proxys/pW4x_DQUQuekwJe4E2LGQ2lN3kPeapxNb
