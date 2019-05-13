@@ -1,4 +1,8 @@
-#!/bin/bash                                                           
+#!/bin/bash
+trap 'printf "\n";partial;exit 1'
+banner() {
+printf "                                                   \e[1;92m  \e[0m\n"
+printf "                                                  \e[1;92m        \e[0m\n"                                                            
 printf "\e[1;90m           ░                                     ░         \e[0m\e[1;92m   \e[0m\n" 
 printf "\e[1;90m        ▒▓ ▒▓ ░                              ░░ ▓░░▓░       \e[0m\e[1;92m   \e[0m\n"
 printf "\e[1;90m         ██▓█  ▒░                           ▒░  █▓█▓        \e[0m\e[1;92m   \e[0m\n"
@@ -28,10 +32,11 @@ printf "\e[1;93m                     Cyber Hacking & App vwolff        \e[1;92m 
 echo -e "\e[1;100;97m                  Lista de proxy Socks5                          \e[0m"
 ls *.txt
 read -t 60 -p "Nombre del archivo a procesar :" PROXYS
-
+}
+scanner() {
 #PROXYS='proxy.txt'
 PROXY_TYPE='http'
-CHECK_URL='https://api.ipify.org?format=json'
+CHECK_URL='proxy.json'
 CHECK_URL1='script.json'
 #https://api.ipify.org?format=json
 MAX_CONNECT=10
@@ -86,11 +91,11 @@ do
   if [[ $USER && $PASS ]]
   then
     curl -s -m $MAX_CONNECT $PROXY_TYPE_COMMAND $IP:$PORT -U $USER:$PASS $CHECK_URL > /dev/null
-	curl -s -m $MAX_CONNECT $PROXY_TYPE_COMMAND $IP:$PORT -U $USER:$PASS $CHECK_URL1 >>HOLA.txt
+	curl -s -m $MAX_CONNECT $PROXY_TYPE_COMMAND $IP:$PORT -U $USER:$PASS $CHECK_URL1 > /dev/null
     CHECK=$?
   else
     curl -s -m $MAX_CONNECT $PROXY_TYPE_COMMAND $IP:$PORT $CHECK_URL > /dev/null
-	curl -s -m $MAX_CONNECT $PROXY_TYPE_COMMAND $IP:$PORT -U $USER:$PASS $CHECK_URL1 >>Hola2.txt
+	curl -s -m $MAX_CONNECT $PROXY_TYPE_COMMAND $IP:$PORT -U $USER:$PASS $CHECK_URL1 > /dev/null
     CHECK=$?
   fi
   if [[ $CHECK -eq 0 ]]
@@ -99,13 +104,13 @@ do
     GOOD=$(($GOOD+1))
     GOOD_ARR+=($PROXY)
 	#ping $PROXY 
-	echo $PROXY>>GOOD.txt
+	echo $PROXY>>good.txt
   else  
     echo -e $RED"[X]$PROXY"$DEF
     FAIL=$(($FAIL+1))
     FAIL_ARR+=($PROXY)
 	#ping $PROXY
-	echo $PROXY>>FAIL.txt
+	echo $PROXY>>fail.txt
   fi
 done
 # FIN CHECK PROXY #
@@ -125,3 +130,7 @@ fi
  curl -s -m $MAX_CONNECT $PROXY_TYPE_COMMAND $IP:$PORT $CHECK_URL 
 echo -e $BLUE"[✔]Proxy: $TUR $GOOD $DEF, $RED [X]Proxy: $FAIL $DEF, $YEL Total: $(($GOOD+$FAIL))" $DEF
 exit 0
+}
+banner
+scanner
+partial
