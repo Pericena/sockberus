@@ -1,6 +1,5 @@
 # sockberus
-![](https://pm1.narvii.com/7192/7d4fc2db75408b3a5f694c9057491e0c79f7845er1-720-412v2_hq.jpg)
-
+![](https://4.bp.blogspot.com/-hTuJtHY8kds/XNp0wmEvAGI/AAAAAAAAPI4/u8ykEQ3YFwwRY3zklKoqAWUQum6S5KbaQCLcBGAs/s1600/Screenshot_121.png)
 Sockberus es una herramienta echa a base de "bash" y es ejecutable en windows como en linux
 ¿algunos usos?
 - puede usarse para checker de cuentas autopagables como de ccs.
@@ -48,14 +47,4 @@ https://join-adf.ly/21179079
 - 🎮 sitio web        https://pericena.wordpress.com/
 - vimeo         https://vimeo.com/lpericena
 - 📷 instagram      https://www.instagram.com/lpericena/
-- 🎁 remote      https://remote.com/luishinopericena-choque
-- ⚛ google+   https://plus.google.com/u/0/114054031405340478901
-- 🚀 kiwi       https://kiwi.qa/LuishinoC
-- 📅 App    https://apps.facebook.com/167466933725219
-- 👻 Grupo    https://www.facebook.com/groups/122223121705126/?source_id=1506435219407506
-- 🎧 socialtools https://www.socialtools.me/index?action=demoApps&preview=1&app_id=406101
-- ツ teachlr    https://teachlr.com/lpericena
-- 📖  wikipedia  https://es.wikipedia.org/wiki/Usuario:Luishi%C3%B1o_Pericena_Choque
-- 📧 ask          https://ask.fm/Lpericena
-- 💻 stackoverflow  https://stackoverflow.com/users/6506592/luishi%C3%B1o-pericena-choque
-- 📡 wix https://lpericena.wixsite.com/curriculumvitae
+- 
